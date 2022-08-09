@@ -187,8 +187,10 @@ footer {
 .info1,
 .info2 {
     margin: 0 auto;
-    width: 180px;
+    width: 190px;
+    padding: 4px;
 }
+
 
 .buttomOutput {
     width: 100%;
