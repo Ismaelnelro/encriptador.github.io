@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- boxicons Icons web: https://boxicons.com/ -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!-- Style.css -->
+    <link rel="stylesheet" href="style/style.css">
+    
+    <title>Encriptador</title>
+</head>
+<body>
+    <main class="container">
+
+        <div class="logo">
+            <img src="img/Vector.png" alt="">
+        </div>
+
+        <div class="inputContainer">
+            
+            <div class="textInput">
+                <textarea autofocus name="" value ='' id="textAreaInput" cols="30" rows="10"></textarea>
+            </div>
+            <div class="warning">
+                <img class="interrogacion" src="img/Vector interrogacion.png" alt="">
+                <p>Solo letras minusculas y sin acentos</p>
+            </div>
+            <div class="buttomInput">
+                <button id="btnEncript"><span class="span">Encriptar</span></button>
+                <button id="btnEncoder">Desencriptar</button>
+
+            </div>
+        </div>
+        
+        
+        <div class="outputContainer">
+
+            <div class="textOutput">
+                <img class="img" src="img/imagen.png" alt="">
+                <textarea  hidden name="" id="textAreaResponse" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="info">
+                <h2 class="info1">Ningun mensaje fue encontrado</h1>
+                    <p class="info2">Ingrese el texto que desea encriptar o desencriptar</p>
+                </div>
+                
+                <div class="buttomOutput">
+                <button id="btnCopy">Copiar</button>
+            </div>
+            
+        </div>
+    </main>
+    <footer>
+        <a href="https://github.com/Ismaelnelro" target="_blank"> <i class='bx bxl-github' style='color:#000000'></i></a>
+        <a href="https://www.linkedin.com/in/ismaelrosas/" target="_blank"> <i class='bx bxl-linkedin' style='color:#0a3871' ></i></a>
+        <p>By Ismael Rosas</p>
+    </footer>
+</body>
+<script src="index.js"></script>
+</html>
