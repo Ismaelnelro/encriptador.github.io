@@ -27,3 +27,7 @@ El resultado debe ser mostrado en la pantalla.
 Extras:
 - Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
 Aqui me di la libertad de que al momento de seleccionar el boton de copiado, el texto sea trasladado momentaneamente al sector de input para lograr una mejor experiencia en medios mobiles
+
+
+Fallas a mejorar:
+1) Eliminar la barra de desplazamientom que aparecer cuando el texto supera el tamanio del textarea
